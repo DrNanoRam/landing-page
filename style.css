@@ -1,0 +1,50 @@
+.container {
+    display:flex;
+    flex-direction:column;
+}
+
+.header,
+.top-container {
+    background-color: #1F2937;
+}
+
+.header {
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary-text,
+a {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image-placeholder {
+    display:flex;
+    background-color: gray;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.top-container-content {
+    flex: 1;
+}
+.top-container {
+    display:flex;
+    flex-direction: row;
+}
