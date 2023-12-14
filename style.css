@@ -1,3 +1,5 @@
+
+
 .container {
     display:flex;
     flex-direction:column;
@@ -62,6 +64,107 @@ a {
 }
 button {
     padding: 5px;
-    padding-inline: 15px;
+    padding-inline: 25px;
     margin-top: 5px;
+    color: white;
+    background-color: #3882F6;
+    border: solid #3882F6;
+    border-radius: 5px;
+}
+.second-container {
+    display: flex; 
+    flex-direction: column;
+}
+.img-text-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+}
+.second-container-header {
+ font-size: 36px; 
+ font-weight: bold;
+ color:#1F2937;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ margin-top: 50px;
+ margin-bottom: 25px;
+}
+
+.img {
+    border: solid;
+    border-color: blue;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.img-text {
+    max-width: 150px; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.third-container {
+    display: flex;
+    padding: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+.quote {
+    font-style: light italic;
+    color: #1F2937;
+    font-size: 36px;
+}
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 36px;
+}
+.bottom-container {
+    padding: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.signup-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px; 10px;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 5px;
+}
+
+.Call-to-action,
+.sign-up {
+    color: white;
+}
+
+.Call-to-action {
+    font-weight: 900;
+}
+.button1 {
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
